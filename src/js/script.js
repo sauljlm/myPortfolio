@@ -88,7 +88,7 @@
   btn_menu.addEventListener("click", animationMenu);
 
   window.onload = function() {
-    getJson(`data.json`, createProject);
+    getJson(`js/data.json`, createProject);
     getJson(`https://api.github.com/users/sauljlm/events`, createActivity);
   };
 })();
