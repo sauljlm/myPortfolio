@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saúl López</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="styleSheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="hamburguer clearfix">
+      <svg class="hamburguer-btn" id="btn-hamburguer" viewBox="0 0 30 30">
+        <path class="line line-top" d="M0,9h30"/>
+        <path class="line line-center" d="M0,15h30"/>
+        <path class="line line-bottom" d="M0,21h30"/>
+      </svg>
+    </div>
+    <div class="header">
+      <div id="sidebar" class="cont__menu">
+        <ul class="header__menu" id="menu">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#activity">Activity</a></li>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="computer">
+        <div class="screen">
+          <div class="comuter-header">
+            <div class="cont--header">
+              <div class="computer-btn btn-red"></div>
+              <div class="computer-btn btn-yellow"></div>
+              <div class="computer-btn btn-green"></div>
+            </div>
+          </div>
+          <span class="webDeveloper">Web Developer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio clearfix" id="projects">
+      <h2 class="portfolio__title">Projects</h2>
+        <div class="portfolio__cont" id="cont-portfolio"></div>
+    </div>
+
+    <div class="activity">
+      <h2>Activity</h2>
+      <div class="activiti__cont clearfix" id="activity">
+
+      </div>
+    </div>
+    <div class="about-me clearfix" id="about-me">
+      <h2>About me</h2>
+      <div class="about-me__cont">
+        <div class="about-me__cont__photo">
+          <div class="about-me__photo">
+            <img src="img/myPhoto.jpg" alt="img profile">
+            <div class="about-me__photo__links">
+              <a target="_blank" href="https://github.com/sauljlm">
+                <img class="img-icon icon" src="img/github.svg" alt="btn link github">
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/saul-lopez-715536165/">
+                <img class="img-icon icon" src="img/linkedin.svg" alt="btn link linkedin">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="about-me__info">
+          <h3>Saúl López</h3>
+          <p>Hi I am Saúl López and I'm a web developer bilingual and student from CETAV of desing and web development. My softskills are Desing Thinking and CNV. </p>
+          <p>I like to program in JavaScript and use CSS pure with some preprocessors like Sass.</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="contact clearfix" id="contact">
+      <h2>Contact</h2>
+      <form action="">
+        <input type="text" id = "name-value" required placeholder="Name" value="">
+        <input type="text" id = "email-value" required placeholder="Email" value="">
+        <textarea name="" id = "message-value" required placeholder="Message"></textarea>
+        <input type="submit" class="btn_submit" required id="btn_submit" value="Send">
+      </form>
+    </div>
+    <div class="footer">
+      <ul class="footer__menu">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#activity">Activity</a></li>
+        <li><a href="#about-me">About me</a></li>
+      </ul>
+    </div>
+  </div>
+	<script src="js/script.js"></script>
+</body>
+</html>

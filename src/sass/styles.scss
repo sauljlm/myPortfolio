@@ -1,0 +1,19 @@
+@import 'helppers/settings';
+@import 'helppers/general';
+
+@import 'patterns/buttons';
+@import 'patterns/tittles';
+
+@import 'components/menu';
+@import 'components/banner';
+@import 'components/project';
+@import 'components/activity';
+@import 'components/form';
+
+@import 'pages/header';
+@import 'pages/projects';
+@import 'pages/activity';
+@import 'pages/about-me';
+@import 'pages/footer';
+
+@import 'breakpoints/screen';

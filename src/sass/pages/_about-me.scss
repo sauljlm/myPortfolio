@@ -1,0 +1,25 @@
+.about-me__cont__photo {
+  float: left;
+  margin: 5% 0;
+  max-width: 50%;
+  img {
+    border-radius: 50%;
+    width: 100%;
+  }
+  .about-me__photo{
+    float: right;
+    margin-right: 10%;
+    max-width: 50%;
+    position: relative;
+  }
+}
+
+.about-me__info {
+  float: left;
+  margin-top: 5%;
+  width: 30%;
+  h3{
+    padding-bottom: 5%;
+    margin-top: 20%;
+  }
+}
