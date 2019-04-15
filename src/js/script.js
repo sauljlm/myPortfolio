@@ -14,7 +14,7 @@
       const link_server = document.createElement('a');
       const icon_git = document.createElement('img');
       const icon_link = document.createElement('img');
-      
+
       cont_links.setAttribute('class', 'portfolio__projects--hidden');
       cont_project.setAttribute('class', 'portfolio__projects');
       link_code.setAttribute('target', '_blank');
@@ -88,7 +88,7 @@
   btn_menu.addEventListener("click", animationMenu);
 
   window.onload = function() {
-    getJson(`js/data.json`, createProject);
+    getJson(`data.json`, createProject);
     getJson(`https://api.github.com/users/sauljlm/events`, createActivity);
   };
 })();

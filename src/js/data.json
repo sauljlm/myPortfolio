@@ -2,7 +2,7 @@
   "projects": [
     {
       "name" : "API Rick and Morty",
-      "Img_src" : "../img/API_rickAndMorty.jpg",
+      "Img_src" : "img/API_rickAndMorty.jpg",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/sauljlm/proyectoAPI.git",
       "github_pages" : "https://sauljlm.github.io/proyectoAPI/API/src/",
@@ -12,7 +12,7 @@
     },
     {
       "name" : "PSD folio",
-      "Img_src" : "../img/folio.jpg",
+      "Img_src" : "img/folio.jpg",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/sauljlm/examenFinal.git",
       "github_pages" : "https://sauljlm.github.io/examenFinal/",
@@ -22,7 +22,7 @@
     },
     {
       "name" : "PSD tynione",
-      "Img_src" : "../img/tinyone.jpg",
+      "Img_src" : "img/tinyone.jpg",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/sauljlm/tinyone.git",
       "github_pages" : "https://sauljlm.github.io/tinyone/",
@@ -32,7 +32,7 @@
     },
     {
       "name" : "PSD cuda",
-      "Img_src" : "../img/cuda.jpg",
+      "Img_src" : "img/cuda.jpg",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/sauljlm/test_1.git",
       "github_pages" : "https://sauljlm.github.io/test_1/",
@@ -42,7 +42,7 @@
     },
     {
       "name" : "drack and drop",
-      "Img_src" : "../img/rompeCabezas.jpg",
+      "Img_src" : "img/rompeCabezas.jpg",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/sauljlm/proyectoFinalJavaScript2.git",
       "github_pages" : "https://sauljlm.github.io/proyectoFinalJavaScript2/src/",
@@ -52,7 +52,7 @@
     },
     {
       "name" : "PSD switch",
-      "Img_src" : "../img/switch.jpg",
+      "Img_src" : "img/switch.jpg",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/sauljlm/switchOK.git",
       "github_pages" : "https://sauljlm.github.io/switchOK/",
