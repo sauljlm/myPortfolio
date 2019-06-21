@@ -47,7 +47,7 @@ ul {
   .about-me__photo__links a {
     margin-top: 120px; }
   .about-me__photo__links a:hover .icon {
-    box-shadow: 0px -4px 50px #fff;
+    box-shadow: 0px -2px 50px #000;
     transition: 0.5s; }
 
 .about-me__photo:hover .about-me__photo__links {
@@ -177,8 +177,9 @@ ul {
   width: 100%;
   transition: 1s; }
   .portfolio__projects--hidden a:hover .icon {
-    box-shadow: 0px -4px 50px #fff;
-    transition: 0.5s; }
+    box-shadow: 0px -2px 50px #000;
+    transition: 0.5s;
+    background-color: #000; }
 
 .portfolio__projects:hover .portfolio__projects--hidden {
   opacity: 1;

@@ -11,11 +11,11 @@
       "svg_link" : "img/link.svg"
     },
     {
-      "name" : "PSD folio",
-      "Img_src" : "img/folio.jpg",
+      "name" : "Music Player",
+      "Img_src" : "img/musicPlayer.png",
       "class_hover" : "portfolio__projects--hidden",
-      "link_gitHub" : "https://github.com/sauljlm/examenFinal.git",
-      "github_pages" : "https://sauljlm.github.io/examenFinal/",
+      "link_gitHub" : "https://github.com/sauljlm/musicPlayer.git",
+      "github_pages" : "https://sauljlm.github.io/musicPlayer/src/",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"
@@ -31,21 +31,21 @@
       "svg_link" : "img/link.svg"
     },
     {
-      "name" : "PSD cuda",
-      "Img_src" : "img/cuda.jpg",
+      "name" : "La Malandrada",
+      "Img_src" : "img/LaMalandrada.png",
       "class_hover" : "portfolio__projects--hidden",
-      "link_gitHub" : "https://github.com/sauljlm/test_1.git",
-      "github_pages" : "https://sauljlm.github.io/test_1/",
+      "link_gitHub" : "https://github.com/sauljlm/LaMalandrada",
+      "github_pages" : "https://sauljlm.github.io/LaMalandrada/",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"
     },
     {
       "name" : "drack and drop",
-      "Img_src" : "img/rompeCabezas.jpg",
+      "Img_src" : "img/events.jpg",
       "class_hover" : "portfolio__projects--hidden",
-      "link_gitHub" : "https://github.com/sauljlm/proyectoFinalJavaScript2.git",
-      "github_pages" : "https://sauljlm.github.io/proyectoFinalJavaScript2/src/",
+      "link_gitHub" : "https://github.com/sauljlm/quiz2",
+      "github_pages" : "https://sauljlm.github.io/quiz2/src/",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"
