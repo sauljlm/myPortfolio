@@ -1,31 +1,31 @@
 {
   "projects": [
     {
-      "name" : "API Rick and Morty",
-      "Img_src" : "img/API_rickAndMorty.jpg",
+      "name" : "CETAV",
+      "Img_src" : "img/CETAV.jpg",
       "class_hover" : "portfolio__projects--hidden",
-      "link_gitHub" : "https://github.com/sauljlm/proyectoAPI.git",
-      "github_pages" : "https://sauljlm.github.io/proyectoAPI/API/src/",
+      "link_gitHub" : "https://github.com/cetav-ddw/cetav-2015.git",
+      "github_pages" : "",
+      "type" : "develop",
+      "svg_github" : "img/github.svg",
+      "svg_link" : "img/link.svg"
+    },
+    {
+      "name" : "Sound Light",
+      "Img_src" : "img/SoundLight.jpg",
+      "class_hover" : "portfolio__projects--hidden",
+      "link_gitHub" : "https://github.com/sauljlm/SoundLight.git",
+      "github_pages" : "https://soundlight.netlify.com/",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"
     },
     {
       "name" : "Music Player",
-      "Img_src" : "img/musicPlayer.png",
+      "Img_src" : "img/MusicPlayer.png",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/sauljlm/musicPlayer.git",
       "github_pages" : "https://sauljlm.github.io/musicPlayer/src/",
-      "type" : "develop",
-      "svg_github" : "img/github.svg",
-      "svg_link" : "img/link.svg"
-    },
-    {
-      "name" : "PSD tynione",
-      "Img_src" : "img/tinyone.jpg",
-      "class_hover" : "portfolio__projects--hidden",
-      "link_gitHub" : "https://github.com/sauljlm/tinyone.git",
-      "github_pages" : "https://sauljlm.github.io/tinyone/",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"
@@ -41,7 +41,7 @@
       "svg_link" : "img/link.svg"
     },
     {
-      "name" : "drack and drop",
+      "name" : "Events",
       "Img_src" : "img/events.jpg",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/sauljlm/quiz2",

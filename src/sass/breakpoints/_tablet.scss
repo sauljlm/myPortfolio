@@ -40,13 +40,20 @@
 
   .about-me__info {
     float: none;
-    margin: 0 auto;
-    margin-top: 5%;
+    margin: 5% auto 0;
+    padding-bottom: 5%;
     width: 80%;
     h3 {
       margin-top: 10%;
     }
     p {
+      margin-bottom: 0;
+
+      @media (min-width: 768px){
+        margin-bottom: 10%;
+      }
+    }
+    p + p {
       margin-bottom: 10%;
     }
   }
@@ -67,7 +74,7 @@
     width: 100%;
   }
 
-  .hamburguer{
+  .hamburguer {
     display: block;
     position: fixed;
     background-color: rgba(0, 0, 0, 0);
@@ -141,16 +148,6 @@
       padding:40px 20px;
       border-bottom: none;
     }
-  }
-
-  .computer {
-    width: 80%;
-    height: 200px;
-    position: relative;
-    bottom: -20px;
-    background-color: black;
-    border-radius: 10px;
-    box-shadow: 0px -4px 50px #fff;
   }
 
   .screen {

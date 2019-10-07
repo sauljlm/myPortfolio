@@ -16,8 +16,10 @@ input, textarea {
   margin: 20px auto;
   width: 100%;
   transition: 0.3s;
-  &:hover{
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -36,8 +38,4 @@ input, textarea {
     border: 2px solid black;
     color: black;
   }
-}
-
-.contact {
-  background-color: $background-gray;
 }

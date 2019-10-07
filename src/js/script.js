@@ -55,29 +55,6 @@
     cont_menu.classList.toggle('show');
   }
 
-  function createActivity(data) {
-    for(let i = 0 ; i < 10 ; i += 1) {
-      const cont_item_activity = document.createElement('div');
-      const text_activity = document.createElement('p');
-      const type_activity = document.createElement('span');
-      const link_activity = document.createElement('a');
-      if(data[i].type === 'CreateEvent') {
-        link_activity.setAttribute('href', `https://github.com/${data[i].repo.name}`);
-        text_activity.innerHTML = `New repositiry:  ${data[i].repo.name}`;
-      } else {
-        link_activity.setAttribute('href', `https://github.com/${data[i].repo.name}`);
-        text_activity.appendChild(type_activity);
-        text_activity.innerHTML = `New commit:  ${data[i].payload.commits[0].message}`;
-      }
-      link_activity.innerHTML = 'more';
-      cont_item_activity.setAttribute('class', 'activiti__cont__item');
-
-      cont_item_activity.appendChild(text_activity);
-      cont_item_activity.appendChild(link_activity);
-      cont_activity.appendChild(cont_item_activity);
-    }
-  }
-
   for(let e of menu ){
     e.addEventListener('click', () => {
       btn_menu.classList.remove('active');
@@ -89,6 +66,5 @@
 
   window.onload = function() {
     getJson(`js/data.json`, createProject);
-    getJson(`https://api.github.com/users/sauljlm/events`, createActivity);
   };
 })();
