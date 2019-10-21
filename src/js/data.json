@@ -22,7 +22,7 @@
     },
     {
       "name" : "Music Player",
-      "Img_src" : "img/MusicPlayer.png",
+      "Img_src" : "img/musicPlayer.png",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/sauljlm/musicPlayer.git",
       "github_pages" : "https://sauljlm.github.io/musicPlayer/src/",
