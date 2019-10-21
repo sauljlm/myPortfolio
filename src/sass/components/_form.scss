@@ -39,3 +39,27 @@ input, textarea {
     color: black;
   }
 }
+
+@media (max-width: $breakpoint-md){
+  .btn_submit {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  form{
+    padding: 2% 5%;
+    width: 100%;
+  }
+}
+
+@media (max-width: $breakpoint-lg){
+  .btn_submit {
+    max-width: 40%;
+    padding: 20px;
+  }
+
+  form{
+    width: 60%;
+  }
+}

@@ -4,7 +4,6 @@
   const btn_menu = document.getElementById('btn-hamburguer');
   const menu = document.getElementById('menu').children;
   const cont_menu = document.getElementById('sidebar');
-  const cont_activity = document.getElementById('activity');
 
   function createProject(data) {
     data.projects.forEach((e) => {

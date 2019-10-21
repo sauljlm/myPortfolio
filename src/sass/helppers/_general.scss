@@ -1,9 +1,6 @@
-a {
-  text-decoration: none;
-}
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $primary-font
 }
 
 html {
@@ -16,11 +13,6 @@ h2 {
   font-weight: 400;
   font-size: 36px;
   text-align: center;
-}
-
-ul{
-  padding: 0;
-  list-style: none;
 }
 
 .clearfix:after {

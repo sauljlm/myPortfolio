@@ -1,20 +1,18 @@
 .banner {
   display: flex;
   justify-content: center;
-  margin-top: 68px;
+  padding-top: 68px;
   overflow: hidden;
-  background-color: #EEEEEE;
-  box-shadow: 1px 1px 5px #00000042;
 }
 
 .computer {
-  width: 70%;
+  width: 60%;
   height: 200px;
   position: relative;
   bottom: -20px;
-  background-color: black;
+  background-color: $black;
   border-radius: 5px;
-  box-shadow: 0px -4px 50px #fff;
+  box-shadow: 0px -4px 50px $white;
 
   @media (min-width: 600px) {
     border-radius: 10px;
@@ -30,12 +28,12 @@
   }
   @media (min-width: 1200px) {
     border-radius: 20px;
-    height: 500px;
+    height: 400px;
   }
 }
 
 .screen {
-  background-color: white;
+  background-color: $white;
   width: 95%;
   margin: 0 auto;
   margin-top: 2.5%;
@@ -54,9 +52,9 @@
 }
 
 .comuter-header {
-  background-color: #EEEEEE;
-  height: 5%;
-  width: 100%;
+  background-color: $light-gray;
+  height: 6%;
+  width: 100%; 
 }
 
 .computer-btn {
@@ -64,7 +62,7 @@
   height: 15px;
   border-radius: 50%;
   margin: 5px;
-  background-color: black;
+  background-color: $black;
   float: left;
 }
 
@@ -78,4 +76,41 @@
 
 .btn-green {
   background-color: green;
+}
+
+@media (max-width: $breakpoint-md){
+  .screen {
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2.5%;
+    height: 100%;
+  }
+  
+  .myName {
+    margin-top: 20%;
+    text-align: center;
+  }
+
+  .banner__name {
+    margin: 30% 0;
+  }
+  
+  .web-developer {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .comuter-header {
+    background-color: #EEEEEE;
+    height: 5%;
+    width: 100%;
+  }
+  
+  .computer-btn {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+  }
 }

@@ -1,4 +1,6 @@
 .portfolio {
+  box-shadow: 1px 1px 5px $shadow-color;
+  padding-bottom: 50px;
   padding-top: 75px;
 }
 
@@ -6,4 +8,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.portfolio__title{
+  margin-top: 0;
+  padding-bottom: 25px;
 }
