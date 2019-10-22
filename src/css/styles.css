@@ -376,10 +376,6 @@ h2 {
   width: 50px;
 }
 
-.img-icon {
-  width: 50px;
-}
-
 .cont__menu {
   background-color: #000;
   display: flex;
@@ -526,6 +522,8 @@ h2 {
   justify-content: center;
   padding-top: 68px;
   overflow: hidden;
+  background-color: #F5F5F5;
+  box-shadow: 1px 1px 5px #00000042;
 }
 
 .computer {
@@ -693,7 +691,6 @@ h2 {
 }
 
 .portfolio {
-  box-shadow: 1px 1px 5px #00000042;
   padding-bottom: 50px;
   padding-top: 75px;
 }

@@ -24,10 +24,10 @@
       link_code.setAttribute('href', `${e.link_gitHub}`);
       link_server.setAttribute('target', '_blank');
       link_server.setAttribute('href', `${e.github_pages}`);
-      icon_git.setAttribute('class', 'img-icon icon');
+      icon_git.setAttribute('class', 'icon');
       icon_git.setAttribute('src', `${e.svg_github}`);
       icon_git.setAttribute('alt', 'btn link repositories');
-      icon_link.setAttribute('class', 'img-icon icon');
+      icon_link.setAttribute('class', 'icon');
       icon_link.setAttribute('src', `${e.svg_link}`);
       icon_link.setAttribute('alt', 'btn link');
 
