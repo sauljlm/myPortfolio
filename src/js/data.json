@@ -5,7 +5,7 @@
       "Img_src" : "img/CETAV.jpg",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/cetav-ddw/cetav-2015.git",
-      "github_pages" : "http://dev-cetav.pantheonsite.io/",
+      "github_pages" : "#",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"
