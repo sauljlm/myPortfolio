@@ -1,9 +1,13 @@
 (function () {
   const cont_projects = document.getElementById('cont-portfolio');
-  const btn_submit = document.getElementById('btn_submit');
   const btn_menu = document.getElementById('btn-hamburguer');
   const menu = document.getElementById('menu').children;
   const cont_menu = document.getElementById('sidebar');
+
+  const speed =100;
+  const finstText = document.querySelector('.myName');
+  const secondText = document.querySelector('.web-developer');
+  let delay = finstText.innerHTML.length * speed + speed;
 
   function createProject(data) {
     data.projects.forEach((e) => {
@@ -51,13 +55,28 @@
 
   function animationMenu() {
     btn_menu.classList.toggle('active');
-    cont_menu.classList.toggle('show');
+    cont_menu.classList.toggle('showMenu');
+  }
+
+  function typeEffect(element, speed) {
+    let text = element.innerHTML;
+    element.innerHTML = "";
+    
+    let i = 0;
+    let timer = setInterval(function() {
+      if (i < text.length) {
+        element.append(text.charAt(i));
+        i++;
+      } else {
+        clearInterval(timer);
+      }
+    }, speed);
   }
 
   for(let e of menu ){
     e.addEventListener('click', () => {
       btn_menu.classList.remove('active');
-      cont_menu.classList.remove('show');
+      cont_menu.classList.remove('showMenu');
     });
   }
 
@@ -65,5 +84,13 @@
 
   window.onload = function() {
     getJson(`js/data.json`, createProject);
+    typeEffect(finstText, speed);
+    setTimeout(function(){
+      secondText.style.display = "block";
+      typeEffect(secondText, speed);
+    }, delay);
   };
 })();
+
+
+

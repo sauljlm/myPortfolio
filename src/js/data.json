@@ -5,7 +5,7 @@
       "Img_src" : "img/CETAV.jpg",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/cetav-ddw/cetav-2015.git",
-      "github_pages" : "",
+      "github_pages" : "http://dev-cetav.pantheonsite.io/",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"
@@ -36,26 +36,6 @@
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/sauljlm/LaMalandrada",
       "github_pages" : "https://sauljlm.github.io/LaMalandrada/",
-      "type" : "develop",
-      "svg_github" : "img/github.svg",
-      "svg_link" : "img/link.svg"
-    },
-    {
-      "name" : "Events",
-      "Img_src" : "img/events.jpg",
-      "class_hover" : "portfolio__projects--hidden",
-      "link_gitHub" : "https://github.com/sauljlm/quiz2",
-      "github_pages" : "https://sauljlm.github.io/quiz2/src/",
-      "type" : "develop",
-      "svg_github" : "img/github.svg",
-      "svg_link" : "img/link.svg"
-    },
-    {
-      "name" : "PSD switch",
-      "Img_src" : "img/switch.jpg",
-      "class_hover" : "portfolio__projects--hidden",
-      "link_gitHub" : "https://github.com/sauljlm/switchOK.git",
-      "github_pages" : "https://sauljlm.github.io/switchOK/",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"

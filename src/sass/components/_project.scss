@@ -1,3 +1,33 @@
+.portfolio__projects {
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 10px $shadow-color;
+  height: 230px;
+  float: left;
+  margin: 2% 7.5% 6% 7.5%;
+  width: 350px;
+  transition: 1s;
+
+  @media (min-width: $breakpoint-md){
+    width: 90%;
+
+    &:hover {
+      transition: 1s;
+      background-position: 25% 95%;
+    }
+  }
+  @media (min-width: $breakpoint-lg){
+    height: 174px;
+    width: 264px;
+
+    .portfolio__projects:active {
+      .portfolio__projects--hidden {
+        opacity: 1;
+        transition: 1s;
+      }
+    }
+  }
+}
+
 .portfolio__projects--hidden {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
@@ -8,9 +38,13 @@
   width: 100%;
   transition: 1s;
 
-  @media (max-width: $breakpoint-md){
-    width: 100%;
-    transition: 1s;
+  @media (max-width: $breakpoint-lg){
+    a:active {
+      .icon {
+        box-shadow: 0px -4px 50px $white;
+        transition: 0.5s;
+      } 
+    }
   }
 
   a:hover {
@@ -31,50 +65,4 @@
 
 .portfolio__projects__btn-git {
   width: 25%;
-}
-
-.portfolio__projects {
-  background-repeat: no-repeat;
-  box-shadow: 2px 2px 10px $shadow-color;
-  height: 230px;
-  float: left;
-  margin: 2% 7.5% 6% 7.5%;
-  width: 350px;
-  transition: 1s;
-
-  @media (max-width: $breakpoint-md){
-    margin: 2% 7.5% 6% 7.5%;
-    width: 90%;
-
-    &:hover {
-      transition: 1s;
-      background-position: 25% 95%;
-    }
-  }
-}
-
-@media (max-width: $breakpoint-lg){
-  .portfolio__projects{
-    height: 174px;
-    width: 264px;
-  }
-
-  .portfolio__projects--hidden {
-    height: 100%;
-    width: 100%;
-
-    a:active {
-      .icon {
-        box-shadow: 0px -4px 50px #fff;
-        transition: 0.5s;
-      } 
-    }
-  }
-  
-  .portfolio__projects:active {
-    .portfolio__projects--hidden {
-      opacity: 1;
-      transition: 1s;
-    }
-  }
 }

@@ -38,23 +38,26 @@
   margin: 0 auto;
   margin-top: 2.5%;
   height: 100%;
+
+  @media (max-width: $breakpoint-md){
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2.5%;
+    height: 100%;
+  }
 }
 
-.myName {
-  margin-top: 20%;
-  text-align: center;
-}
-
-.web-developer {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 16px;
-}
-
-.comuter-header {
+.computer-header {
   background-color: $light-gray;
   height: 6%;
   width: 100%; 
+  
+  @media (max-width: $breakpoint-md){
+    background-color: #EEE;
+    height: 5%;
+    width: 100%;
+  }
 }
 
 .computer-btn {
@@ -64,6 +67,12 @@
   margin: 5px;
   background-color: $black;
   float: left;
+
+  @media (max-width: $breakpoint-md){
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+  }
 }
 
 .btn-red {
@@ -78,39 +87,15 @@
   background-color: green;
 }
 
-@media (max-width: $breakpoint-md){
-  .screen {
-    background-color: white;
-    width: 95%;
-    margin: 0 auto;
-    margin-top: 2.5%;
-    height: 100%;
-  }
-  
-  .myName {
-    margin-top: 20%;
-    text-align: center;
-  }
+// typing effect
+.myName {
+  margin-top: 20%;
+  text-align: center;
+}
 
-  .banner__name {
-    margin: 30% 0;
-  }
-  
-  .web-developer {
-    margin-top: 2%;
-    text-align: center;
-    font-size: 16px;
-  }
-  
-  .comuter-header {
-    background-color: #EEEEEE;
-    height: 5%;
-    width: 100%;
-  }
-  
-  .computer-btn {
-    width: 10px;
-    height: 10px;
-    margin: 2px;
-  }
+.web-developer {
+  display: none;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 16px;
 }

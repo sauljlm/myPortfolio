@@ -3,112 +3,82 @@
   background-color: $background-gray;
 }
 
-.about-me__cont__photo {
-  float: left;
-  margin: 5% 0;
+.about-me__photo{
+  float: right;
+  margin-right: 10%;
   max-width: 50%;
-  img {
-    border-radius: 50%;
-    width: 100%;
-  }
-  .about-me__photo{
-    float: right;
-    margin-right: 10%;
-    max-width: 50%;
+  position: relative;
+
+  @media (max-width: $breakpoint-md){
+    float: none;
+    margin: 0 auto;
+    margin-right: 0;
+    max-width: 100%;
     position: relative;
   }
 }
 
-.about-me__info {
+.about-me__cont__photo {
   float: left;
-  margin-top: 5%;
-  width: 30%;
+  margin: 5% 0;
+  max-width: 50%;
+
+  @media (max-width: $breakpoint-md){
+    float: none;
+    margin: 5% auto;
+    max-width: 50%;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 100%;
+
+    @media (max-width: $breakpoint-md){
+      border-radius: 50%;
+      width: 100%;
+    }
+  }
+}
+
+.about-me__info {
+  float: none;
+  margin: 5% auto 0;
+  padding-bottom: 5%;
+  width: 80%;
+
+  @media (min-width: $breakpoint-md){
+    float: left;
+    margin-top: 5%;
+    width: 30%;
+
+    h3 {
+      margin-top: 10%;
+    }
+    p {
+      margin-bottom: 10%;
+    }
+    p + p {
+      margin-bottom: 10%;
+    }
+  }
+  @media (max-width: $breakpoint-lg){
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
   h3{
     padding-bottom: 5%;
     margin-top: 14%;
   }
 }
 
-.contact {
-  padding-top: 75px;
-}
-
-
-@media (max-width: $breakpoint-md){
-  .about-me__cont {
-    display: block;
-  }
-  .about-me__cont__photo {
-    float: none;
-    margin: 5% auto;
-    max-width: 50%;
-    img {
-      border-radius: 50%;
-      width: 100%;
-    }
-    .about-me__photo{
-      float: none;
-      margin: 0 auto;
-      margin-right: 0;
-      max-width: 100%;
-      position: relative;
-    }
-  }
-
-  .about-me__photo__links {
-    height: 99%;
-    a{
-      margin-top: 0;
-      margin: 10px;
-      transition: 0.5s;
-    }
-    .icon {
-      width: 60px;
-    }
-  }
-
-  .about-me__photo:hover {
-    a{
-      margin: 10px 60%;
-      transition: 0.5s;
-    }
-  }
-
-  .about-me__info {
-    float: none;
-    margin: 5% auto 0;
-    padding-bottom: 5%;
-    width: 80%;
-    h3 {
-      margin-top: 10%;
-    }
-    p {
-      margin-bottom: 0;
-
-      @media (min-width: 768px){
-        margin-bottom: 10%;
-      }
-    }
-    p + p {
-      margin-bottom: 10%;
-    }
-  }
-}
-
-@media (max-width: $breakpoint-lg){
-  .about-me__info {
-    margin-bottom: 5%;
-    margin-top: 0;
-    width: 30%;
-  }
-
-  .about-me__photo__links {
-    height: 98%;
-    a{
-      margin-top: 55px;
-    }
-    .icon {
-      width: 30px;
-    }
+.contact__cont {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px auto 0;
+  width: 60%;
+  
+  @media (min-width: $breakpoint-md){
+    margin: 0 auto;
   }
 }
