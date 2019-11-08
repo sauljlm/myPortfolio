@@ -31,11 +31,11 @@
       "svg_link" : "img/link.svg"
     },
     {
-      "name" : "La Malandrada",
-      "Img_src" : "img/LaMalandrada.png",
+      "name" : "pendientes",
+      "Img_src" : "img/pendientes.PNG",
       "class_hover" : "portfolio__projects--hidden",
-      "link_gitHub" : "https://github.com/sauljlm/LaMalandrada",
-      "github_pages" : "https://sauljlm.github.io/LaMalandrada/",
+      "link_gitHub" : "https://github.com/sauljlm/pendientes.git",
+      "github_pages" : "https://pendientes.netlify.com/",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"
