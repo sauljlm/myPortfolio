@@ -21,11 +21,11 @@
       "svg_link" : "img/link.svg"
     },
     {
-      "name" : "Music Player",
-      "Img_src" : "img/musicPlayer.png",
+      "name" : "Nike",
+      "Img_src" : "img/nike.PNG",
       "class_hover" : "portfolio__projects--hidden",
-      "link_gitHub" : "https://github.com/sauljlm/musicPlayer.git",
-      "github_pages" : "https://sauljlm.github.io/musicPlayer/src/",
+      "link_gitHub" : "https://github.com/sauljlm/react-shop.git",
+      "github_pages" : "",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"
