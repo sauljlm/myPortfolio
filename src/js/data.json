@@ -5,7 +5,7 @@
       "Img_src" : "img/CETAV.jpg",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/cetav-ddw/cetav-2015.git",
-      "github_pages" : "#",
+      "github_pages" : "http://www.parquelalibertad.org/cetav",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"
