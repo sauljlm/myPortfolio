@@ -1,6 +1,6 @@
 (function () {
   const cont_projects = document.getElementById('cont-portfolio');
-  const btn_menu = document.getElementById('btn-hamburguer');
+  const btn_menu = document.getElementById('btn-hamburger');
   const menu = document.getElementById('menu').children;
   const cont_menu = document.getElementById('sidebar');
 
@@ -54,7 +54,7 @@
   }
 
   function animationMenu() {
-    btn_menu.classList.toggle('active');
+    btn_menu.classList.toggle('hamburger--active');
     cont_menu.classList.toggle('showMenu');
   }
 
@@ -75,7 +75,7 @@
 
   for(let e of menu ){
     e.addEventListener('click', () => {
-      btn_menu.classList.remove('active');
+      btn_menu.classList.remove('hamburger--active');
       cont_menu.classList.remove('showMenu');
     });
   }
