@@ -21,11 +21,11 @@
       "svg_link" : "img/link.svg"
     },
     {
-      "name" : "Nike",
-      "Img_src" : "img/nike.PNG",
+      "name" : "Nick",
+      "Img_src" : "img/nick.PNG",
       "class_hover" : "portfolio__projects--hidden",
       "link_gitHub" : "https://github.com/sauljlm/react-shop.git",
-      "github_pages" : "",
+      "github_pages" : "https://nick-shop.netlify.com/",
       "type" : "develop",
       "svg_github" : "img/github.svg",
       "svg_link" : "img/link.svg"
