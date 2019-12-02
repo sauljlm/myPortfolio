@@ -767,13 +767,13 @@ h2 {
     width: 30%;
   }
   .about-me__info h3 {
-    margin-top: 10%;
+    margin-top: 5%;
   }
   .about-me__info p {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
   .about-me__info p + p {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
 }
 @media (max-width: 1024px) {
@@ -784,7 +784,6 @@ h2 {
 }
 .about-me__info h3 {
   padding-bottom: 5%;
-  margin-top: 14%;
 }
 
 .contact__cont {

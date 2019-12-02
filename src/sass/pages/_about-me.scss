@@ -52,13 +52,13 @@
     width: 30%;
 
     h3 {
-      margin-top: 10%;
+      margin-top: 5%;
     }
     p {
-      margin-bottom: 10%;
+      margin-bottom: 5%;
     }
     p + p {
-      margin-bottom: 10%;
+      margin-bottom: 5%;
     }
   }
   @media (max-width: $breakpoint-lg){
@@ -68,7 +68,6 @@
 
   h3{
     padding-bottom: 5%;
-    margin-top: 14%;
   }
 }
 
